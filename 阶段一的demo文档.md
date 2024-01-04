@@ -6,34 +6,27 @@
 
 #### 1. 新闻页面：实现新闻列表的展示
 
-> ![](C:\Users\chuangxin.chen\Desktop\企业微信截图_20240104142543.png)
+> ![企业微信截图_20240104142543](https://github.com/Honorxin/AndroidDemo/assets/91577518/f3b57534-2cd7-4789-ba56-f3ecb5f595fd)
+
 
 ##### 1.1 新闻详情页面
 
-> ![](C:\Users\chuangxin.chen\Desktop\企业微信截图_20240104165710.png)
+> ![企业微信截图_20240104165710](https://github.com/Honorxin/AndroidDemo/assets/91577518/3bb1d363-10ce-4df7-9ead-15d191887355)
 
 #### 2. 时间页面：实现自定义时钟，并且跟随系统时间改变
 
-> ![](C:\Users\chuangxin.chen\Desktop\企业微信截图_20240104145525.png)
+> ![企业微信截图_20240104145525](https://github.com/Honorxin/AndroidDemo/assets/91577518/ba0c52c0-c7fd-468c-947b-3d2ad1a201af)
+
 >
 > 
 
 #### 3. 我的页面：实现姓名，电话，性别，关于app
+>![企业微信截图_20240104145658](https://github.com/Honorxin/AndroidDemo/assets/91577518/c96fe66a-d8a5-49d7-8c6b-cf94308774f4)
+>![企业微信截图_20240104150102](https://github.com/Honorxin/AndroidDemo/assets/91577518/a2bbc34c-e39f-40a3-8885-e544b545d26e)
+>![企业微信截图_20240104150117](https://github.com/Honorxin/AndroidDemo/assets/91577518/8e03940f-6b67-4ec7-aa45-feef3600d1ed)
+>![企业微信截图_20240104150130](https://github.com/Honorxin/AndroidDemo/assets/91577518/b16059d9-d33b-4d44-bf07-c15663e8da48)
+>![企业微信截图_20240104150117](https://github.com/Honorxin/AndroidDemo/assets/91577518/67cd83dc-20aa-4637-869a-4adc90024d54)
 
-> ![5](C:\Users\chuangxin.chen\Desktop\企业微信截图_20240104145658.png)
->
-> ![企业微信截图_20240104150102](C:\Users\chuangxin.chen\Desktop\企业微信截图_20240104150102.png)
->
-> ![企业微信截图_20240104150117](C:\Users\chuangxin.chen\Desktop\企业微信截图_20240104150117.png)
->
-> ![企业微信截图_20240104150130](C:\Users\chuangxin.chen\Desktop\企业微信截图_20240104150130.png)
->
-> ![企业微信截图_20240104150139](C:\Users\chuangxin.chen\Desktop\企业微信截图_20240104150139.png)
->
-> 
->
-> 
->
 
 ### 实现步骤：
 
