@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text_top"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text=""
+        android:textSize="24dp"
+        android:textColor="@color/white"
+        android:background="#ED5D5D"/>
+
+
+    <!-- 使用ViewPager替代FrameLayout -->
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/rg_group"
+        android:layout_below="@+id/text_top"/>
+
+    <RadioGroup
+        android:id="@+id/rg_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#ffff"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/news"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/first_drawable"
+            android:gravity="center"
+            android:text="新闻" />
+
+        <RadioButton
+            android:id="@+id/time"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/time_drawable"
+            android:gravity="center"
+            android:text="时间" />
+
+        <RadioButton
+            android:id="@+id/me"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/me_drawable"
+            android:gravity="center"
+            android:text="我的" />
+    </RadioGroup>
+</RelativeLayout>

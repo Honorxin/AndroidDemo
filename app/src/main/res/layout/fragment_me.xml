@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--图片-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="Suspicious0dp">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#F1F1F1"
+                android:src="@drawable/tinno"></ImageView>
+        </LinearLayout>
+
+        <!--姓名-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@drawable/line_drawable"
+            android:orientation="vertical"
+            android:showDividers="end">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="Suspicious0dp">
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="姓名:"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/name_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center|left"
+                    android:text=""
+                    android:textSize="20sp" />
+            </LinearLayout>
+        </LinearLayout>
+        <!--电话-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@drawable/line_drawable"
+            android:orientation="vertical"
+            android:showDividers="end">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@drawable/line_drawable"
+                android:orientation="horizontal"
+                android:showDividers="end"
+                tools:ignore="Suspicious0dp">
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="电话:"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/phone_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center|left"
+                    android:text=""
+                    android:textSize="20sp"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <!--性别-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@drawable/line_drawable"
+            android:orientation="vertical"
+            android:showDividers="end">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="horizontal"
+                tools:ignore="Suspicious0dp">
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="性别:"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/sex_choice"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center|left"
+                    android:text=""
+                    android:textSize="20sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!--关于app-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="Suspicious0dp">
+
+            <TextView
+                android:id="@+id/app_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="关于APP"
+                android:textSize="20sp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
